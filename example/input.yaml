@@ -14,4 +14,4 @@ ord_energy_std: 0.002     # gaussian noise std for rodered phase energies (eV)
 
 max_workers: 2            # number of parallel process to compute independend configuration attempts
 maxiter: 20              # optmizer maxiter
-DATA_PATH: ./data         # path to the data folder
+DATA_PATH: ../data         # path to the data folder

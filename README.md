@@ -26,6 +26,7 @@ You will require some packages to run the code. These packages could be installe
 
 ```
 conda env create -f environment.yml
+conda activate HEA
 ```
 
 * installation with `pip`:
@@ -73,6 +74,7 @@ The script requires the input file `input.yaml`
 ```
 python hea_phase_simulations.py
 ```
+
 
 # Output
 
