@@ -5,11 +5,13 @@ This is a script to compute the phase composition of **MoNbTaW** multiprinciple 
 There is a possibility to estimate the uncertainty of the phase diagrams by inclusion of a random noise with controlalble magnitude into data.
 
 # Authors
-Yury Lysogorskiy(1) and  Alberto Ferrari(1,2)
 
-1: Interdisciplinary Centre for Advanced Materials Simulation, Ruhr-University Bochum, 44801 Bochum, Germany
+* Yury Lysogorskiy (1) 
+* Alberto Ferrari (1,2)
 
-2: Materials Science and Engineering, Delft University of Technology, 2628CD Delft, The Netherlands
+Affiliations:
+1. Interdisciplinary Centre for Advanced Materials Simulation, Ruhr-University Bochum, 44801 Bochum, Germany
+2. Materials Science and Engineering, Delft University of Technology, 2628CD Delft, The Netherlands
 
 # License
 
@@ -65,6 +67,8 @@ DATA_PATH: ./data
 ```
 
 # Usage
+
+The script requires the input file `input.yaml`
 
 ```
 python hea_phase_simulations.py
