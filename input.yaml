@@ -1,0 +1,17 @@
+# nominal concentration to simulate
+nominal_concentration: {Mo: 0.25 , Nb: 0.25, Ta: 0.25, W: 0.25} 
+
+# inclusion of ordered structures based on distance to conv_hull
+max_distance_to_convex_hull: 0.002
+
+Ts: [50, 300, 1200]
+initial_configuration_guesses: 10
+
+N_noise_attempts: 0      # number of noise-attempts
+disord_energy_std: 0.003  # gaussian noise std for disrodered phase energies (eV)
+ord_energy_std: 0.002     # gaussian noise std for rodered phase energies (eV)
+
+
+max_workers: 2            # number of parallel process to compute independend configuration attempts
+maxiter: 20              # optmizer maxiter
+DATA_PATH: ./data         # path to the data folder
